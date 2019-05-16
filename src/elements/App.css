@@ -25,15 +25,24 @@ span{
     font-family: Nova;
     position: absolute;
     left: 37%;
-    top: 22%;
+    top: 31%;
+}
+.projects{
+    font-size: 40px;
 }
 @media(max-width: 1227px){
     span{
         top: 6%
     }
+    .projects{
+        font-size: 25px;
+    }
 }
 @media(max-width: 946px){
     span{
         display: none;
+    }
+    .projects{
+        font-size: 20px;
     }
 }

@@ -78,7 +78,7 @@ import styled from 'styled-components';
     margin-top: 5px;
     margin-right: 180px;
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 20px;
     @media (max-width: 1295px){
         font-size: 30px;
     }
@@ -90,12 +90,31 @@ import styled from 'styled-components';
     }
   `;
 
+  export const StyledProjectTitle = styled(StyledName)`
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-right: 180px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    @media (max-width: 1295px){
+        font-size: 30px;
+    }
+    @media(max-width: 946px){
+        
+    }
+    @media(max-width: 545px){
+        font-size: 25px;
+        text-align: center;
+        margin: 15px auto;
+    }
+  `;
+
   export const StyledSkillTitle1 = styled(StyledName)`
     opacity: 0.8;
     margin-top: 5px;
     margin-right: 130px;
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 20px;
     @media (max-width: 1295px){
         font-size: 30px;
     }
@@ -112,7 +131,7 @@ import styled from 'styled-components';
     margin-top: 5px;
     margin-right: 270px;
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 20px;
     @media (max-width: 1295px){
         font-size: 30px;
     }
@@ -126,7 +145,7 @@ import styled from 'styled-components';
     margin-top: 5px;
     margin-right: 230px;
     margin-bottom: 0px;
-    font-size: 25px;
+    font-size: 20px;
     @media (max-width: 1295px){
         font-size: 25px;
     }
@@ -140,7 +159,7 @@ import styled from 'styled-components';
     margin-top: 5px;
     text-align: left;
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 85%;
     @media(max-width: 1295px){
         margin-left: 80%;
