@@ -9,7 +9,6 @@ const Experience = () => {
         }
     }
     return (
-        <div>
         <ExperienceContainer>
             <StyledTitles>Experience</StyledTitles>
             <span style={styles.span}>link ={'>'}</span> <StyledExperienceDesc>Product Manager Intern:<br/> <a href="https://bstreetshoes.com/" target="_blank">B Street Shoes</a></StyledExperienceDesc> 
@@ -25,7 +24,6 @@ const Experience = () => {
             <h3>Languages:</h3> <span>English, Mandarin (Traditional)</span></p> 
             <button className="experience" onClick={toggler}>Experience</button> */}
         </ExperienceContainer>
-        </div>
     );
 };
 

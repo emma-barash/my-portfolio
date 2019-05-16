@@ -27,3 +27,13 @@ span{
     left: 37%;
     top: 22%;
 }
+@media(max-width: 1227px){
+    span{
+        top: 6%
+    }
+}
+@media(max-width: 946px){
+    span{
+        display: none;
+    }
+}
