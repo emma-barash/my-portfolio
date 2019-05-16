@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+html, body{
+    background-image: linear-gradient(#beb4a2, #a4bfc2, #839cc2);
+    color: #100c08;
+}
+@font-face{
+    src: url('./NovaMono.ttf');
+    font-family: Nova;
+}
+p{
+    font-family: Nova;
+}
+a{
+    text-decoration: none;
+    color: #100c08;
+}
+a:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+span{
+    font-family: Nova;
+    position: absolute;
+    left: 37%;
+    top: 22%;
+}
