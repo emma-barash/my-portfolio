@@ -34,6 +34,8 @@ import styled from 'styled-components';
     }
     @media(max-width: 545px){
         font-size: 20px;
+        text-align: center;
+        margin: 5px auto;
     }
   `;
 
@@ -50,7 +52,9 @@ import styled from 'styled-components';
         display: block;
     }
     @media(max-width: 545px){
-        font-size: 18px
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
     }
   `;
 
@@ -62,8 +66,10 @@ import styled from 'styled-components';
     @media (max-width: 1295px){
         font-size: 30px;
     }
-    @media(max-width: 946px){
-        
+    @media(max-width: 545px){
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
     }
   `;
 

@@ -9,7 +9,7 @@ export const  RevealProjects = styled.div`
         top: 100%;
     }
     @media(max-width: 545px){
-        top: 115%;
+        top: 108%;
         text-align: center;
     }
 `;
