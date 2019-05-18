@@ -1,6 +1,6 @@
 import React from 'react';
 import PDF from '../elements/EmmaBarashResumé.png'
-import { StyledIcons1, StyledIcons2, StyledIcons3, StyledIcons4, StyledIcons5, IconContainer } from '../elements/index'
+import { StyledIcons1, StyledIcons2, StyledIcons3, StyledIcons4, StyledIcons5, IconContainer, MyImage } from '../elements/index'
 
 const Icons = () => {
     const emailAlert = () => {

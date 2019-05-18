@@ -19,4 +19,7 @@ export const ExperienceContainer = styled.div`
         width: 90vw;
         margin-left: 2px;
     }
+    @media(max-width: 545px){
+        margin: auto auto auto 20px;
+    }
 `;

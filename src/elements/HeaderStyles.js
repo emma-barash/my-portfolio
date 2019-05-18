@@ -19,6 +19,7 @@ import styled from 'styled-components';
     }
     @media(max-width: 545px){
         font-size: 50px;
+        margin: 20px auto auto 40PX;
     }
     `;
 
@@ -35,7 +36,23 @@ import styled from 'styled-components';
     @media(max-width: 545px){
         font-size: 20px;
         text-align: center;
-        margin: 5px auto;
+        margin: 5px auto auto 50px;
+    }
+  `;
+  export const StyledExperienceTitle = styled(StyledName)`
+    opacity: 0.8;
+    margin-top: 5px;
+    font-size: 40px;
+    @media (max-width: 1295px){
+        font-size: 30px;
+    }
+    @media(max-width: 946px){
+        
+    }
+    @media(max-width: 545px){
+        font-size: 25px;
+        text-align: center;
+        margin: 25px auto 30px 20px;
     }
   `;
 
@@ -54,7 +71,7 @@ import styled from 'styled-components';
     @media(max-width: 545px){
         font-size: 18px;
         text-align: center;
-        margin: auto;
+        margin: auto;;
     }
   `;
 
@@ -76,7 +93,7 @@ import styled from 'styled-components';
   export const StyledSkillTitle = styled(StyledName)`
     opacity: 0.8;
     margin-top: 5px;
-    margin-right: 180px;
+    margin-left: 180px;
     margin-bottom: 0px;
     font-size: 20px;
     @media (max-width: 1295px){
@@ -105,7 +122,26 @@ import styled from 'styled-components';
     @media(max-width: 545px){
         font-size: 25px;
         text-align: center;
-        margin: 15px auto;
+        margin: 15px auto auto auto;
+    }
+  `;
+  
+  export const StyledProjectsTitle = styled(StyledName)`
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-left: 180px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    @media (max-width: 1295px){
+        font-size: 30px;
+    }
+    @media(max-width: 946px){
+        
+    }
+    @media(max-width: 545px){
+        font-size: 25px;
+        text-align: center;
+        margin: 25px auto auto 33px;
     }
   `;
 

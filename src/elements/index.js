@@ -6,3 +6,4 @@ export * from './RevealProjects';
 export * from './ExperienceContainer';
 export * from './HeaderContainer';
 export * from './IconContainer';
+export * from './MyImage';

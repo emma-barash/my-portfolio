@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExperienceContainer, StyledTitles, StyledExperienceDesc, StyledDate } from '../elements/index';
+import { ExperienceContainer, StyledExperienceTitle, StyledExperienceDesc, StyledDate } from '../elements/index';
 
 const Experience = () => {
     const styles = {
@@ -10,7 +10,7 @@ const Experience = () => {
     }
     return (
         <ExperienceContainer>
-            <StyledTitles>Experience</StyledTitles>
+            <StyledExperienceTitle>Experience</StyledExperienceTitle>
             <span style={styles.span}>link ={'>'}</span> <StyledExperienceDesc>Product Manager Intern:<br/> <a href="https://bstreetshoes.com/" target="_blank">B Street Shoes</a></StyledExperienceDesc> 
             <StyledDate>June - December, 2017</StyledDate>
             <p> • Task Delegation to a Team of Five Artists  <br></br>

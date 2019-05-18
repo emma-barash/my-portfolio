@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const LandingBackground = styled.div`
-    height: 130vh;
+    height: 140vh;
     width: 100vw;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     @media(max-width: 946px){
         height: 180vh;
     }
@@ -11,6 +11,6 @@ export const LandingBackground = styled.div`
         height: 200vh;
     }
     @media(max-width: 545px){
-        height: 210vh;
+        height: 255vh;
     }
 `;

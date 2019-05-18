@@ -3,7 +3,8 @@ import Header from './components/Header';
 import { LandingBackground } from './elements/index';
 import Icons from './components/Icons'
 import './elements/App.css';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Header />
             <Icons />
             <Projects />
+            <Footer />
         </LandingBackground>
     );
 };

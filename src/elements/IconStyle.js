@@ -18,7 +18,7 @@ export const StyledIcons1 = styled.img`
       top: 20%;
     }
     @media(max-width: 545px){
-      top: 5%;
+      top: 3%;
       width: 8%;
       right: 70%;
     }
@@ -42,9 +42,9 @@ export const StyledIcons2 = styled(StyledIcons1)`
       top: 20%;
     }
     @media(max-width: 545px){
-      top: 5%;
+      top: 3%;
       width: 8%;
-      right: 40%;
+      right: 25%;
     }
   `;
 
@@ -66,9 +66,9 @@ export const StyledIcons3 = styled(StyledIcons1)`
       top: 20%;
     }
     @media(max-width: 545px){
-      top: 5%;
+      top: 3%;
       width: 8%;
-      right: 50%;
+      right: 15%;
     }
     `;
 
@@ -78,7 +78,7 @@ export const StyledIcons4 = styled(StyledIcons1)`
     position: absolute;
     float: right;
     right: 70%;
-    height: 40px;
+    height: 44px;
     top: 6%;
     @media (max-width: 1295px){
       right: 70%;
@@ -91,9 +91,9 @@ export const StyledIcons4 = styled(StyledIcons1)`
       right: 90%;
     }
     @media(max-width: 545px){
-      top: 5%;
+      top: 3%;
       width: 8%;
-      right: 30%;
+      right: 80%;
     }
   `;
 
@@ -116,8 +116,8 @@ export const StyledIcons5 = styled(StyledIcons1)`
       right: 85%
     }
     @media(max-width: 545px){
-      top: 5%;
+      top: 3%;
       width: 8%;
-      right: 60%;
+      right: 5%;
     }
   `;

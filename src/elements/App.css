@@ -1,9 +1,9 @@
 *{
     box-sizing: border-box;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 html, body{
-    background-image: linear-gradient(#beb4a2, #a4bfc2, #839cc2);
+    background-image: linear-gradient(to right,#768daf, #9fb8bb,#eeca87);
     color: #100c08;
 }
 @font-face{
@@ -25,24 +25,16 @@ span{
     font-family: Nova;
     position: absolute;
     left: 37%;
-    top: 30%;
+    top: 21%;
 }
-.projects{
-    font-size: 40px;
-}
+
 @media(max-width: 1227px){
     span{
         top: 6%
-    }
-    .projects{
-        font-size: 25px;
     }
 }
 @media(max-width: 946px){
     span{
         display: none;
-    }
-    .projects{
-        font-size: 20px;
     }
 }

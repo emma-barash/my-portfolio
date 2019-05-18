@@ -4,7 +4,7 @@ export const  RevealProjects = styled.div`
     position: absolute;
     top: 25%;
     left: 3%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     @media(max-width: 900px){
         top: 100%;
     }
